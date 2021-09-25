@@ -1,0 +1,48 @@
+:root{
+    --primary:	hsl(240, 100%, 25%);
+    --secondary: #FFFFFF;
+   
+}
+h1 { 
+    color: var(--secondary);
+    text-align: center;
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+  .container{
+    width:50%;
+    margin: auto;
+    
+}
+
+input,
+label {
+    
+    display:block;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#check-button{
+    display: block;
+    border-color:var(--secondary);
+    border-radius:0.2rem;
+    margin: auto;
+    margin-top: 1rem;
+    background: transparent;
+    background-color: var(--primary);
+    color: var(--secondary);
+    cursor:pointer;
+    
+}
+
+#final-output{
+    padding: 5em;
+    text-align: center;
+}
